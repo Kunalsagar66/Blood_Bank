@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Donation Form</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+
+
+  <header id="header" class="header-fixed">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+
+        <a href="index.html#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#speakers">Blood Donation Camps</a></li>
+          <li><a href="#hotels">Blood Banks</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<ul>
+
+<div class="form-style-2">
+<div class="form-style-2-heading">Provide your information</div>
+<label><h5><span class="requi2">*</span>are compulsary</h5></label>
+<form>
+
+<label for="field1"><span>Full Name <span class="requi">*</span></span><input type="text" class="input-field" name="field1" value="" id="fName"/></label>
+
+
+
+
+<label for="field4"><span>DOB<span class="requi">*</span></span><input type="date" class="input-field" name="field2" value="" id="dob"/></label>
+
+
+
+<label for="field2"><span>Email <span class="requi">*</span></span><input type="text" class="input-field" name="field2" value="" id="emailId" /></label>
+
+<label><span>Telephone<span class="requi">*</span></span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="10" id="phNum" /></label>
+
+<label for="field4"><span>Blood Group<span class="requi">*</span></span><select name="field4" class="select-field3" id="bloodGrp" >
+
+
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+<option value="B+">B+</option>
+<option value="B-">B-</option>
+<option value="O+">O+</option>
+<option value="O-">O-</option>
+<option value="">Dont Know</option>
+
+
+</select></label>
+
+
+<label for="field4"><span>Last Donation</span><input type="date" class="input-field" name="field2" value="" id="lastDon" /></label>
+
+
+<label for="field5"><span>Address <span class="requi">*</span></span><textarea name="field5" class="textarea-field" id="add" ></textarea></label>
+<label for="field4"><span>Any disease?<span class="requi">*</span></span><select name="field4" class="select-field3" id="diShow" onchange="ShowHideDiv()" >
+
+
+<option value="N">No</option>
+<option value="Y">Yes</option>
+</select>
+</label>
+
+<label for="field4"><input type="text" name="field4" class ="select-field4" id="specify" style="display: none" placeholder="Specify the disease"/></label>
+
+<label><span> </span><input type="submit" value="Submit" id="submitBtn" onclick="myFunction()"/></label>
+</form>
+</div>
+
+</ul>
+
+
+
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+  <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
